@@ -1,0 +1,210 @@
+/* body{
+	font:15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0px;
+	background-color:#f4f3f3;
+}
+
+.container{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background:#35434a;
+	border-bottom:#448AFF 3px solid;
+	height:120px;
+	width:100%;
+	padding-top:30px;
+
+}
+
+.main-header{
+			text-align:center;
+			background-color: blue;
+			height:100px;
+			width:100%;
+			margin:0px;
+		}
+#brandname{
+	float:left;
+	font-size:30px;
+	color: #fff;
+	margin: 10px;
+}
+
+header h2{
+	text-align:center;
+	color:#fff;
+
+}
+
+
+
+.btn-info {background-color: #2196F3;
+	height:40px;
+	width:100px;}
+.btn-info:hover {background: #0b7dda;}
+
+
+.resultss{ṇ
+	border-radius: 15px 50px;
+    background: #345fe4;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+} 
+*/
+/* body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f3f3;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35434a;
+    border-bottom: #448aff 3px solid;
+    height: 120px;
+    padding-top: 30px;
+}
+
+#brandname {
+    float: left;
+    font-size: 30px;
+    color: #fff;
+    margin: 10px;
+}
+
+header h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.ml-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-info {
+    background-color: #2196f3;
+    color: #fff;
+    height: 40px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-info:hover {
+    background: #0b7dda;
+}
+
+.ml-container p {
+    margin-bottom: 10px;
+}
+
+.resultss {
+    border-radius: 15px 50px;
+    background: #345fe4;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+} */
+
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #111;
+    border-bottom: #448aff 3px solid;
+    height: 120px;
+    padding-top: 30px;
+}
+
+#brandname {
+    float: left;
+    font-size: 30px;
+    color: #fff;
+    margin: 10px;
+}
+
+header h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.ml-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-info {
+    background-color: #448aff;
+    color: #fff;
+    height: 40px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-info:hover {
+    background: #0b7dda;
+}
+
+.ml-container p {
+    margin-bottom: 10px;
+}
+
+.resultss {
+    border-radius: 15px 50px;
+    background: #345fe4;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+/* Adjustments for dark theme */
+input[type="submit"].btn-info {
+    background-color: #448aff;
+    color: #fff;
+}
+
+.main-header {
+    background-color: #111;
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+}
+
+/* Additional adjustments for dark theme */
+p {
+    color: #ccc;
+}
+
+a {
+    color: #448aff;
+}
+
+a:hover {
+    color: #0b7dda;
+}

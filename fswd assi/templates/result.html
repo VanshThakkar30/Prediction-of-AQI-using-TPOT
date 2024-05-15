@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}"> -->
+	<style>
+		body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #111;
+    border-bottom: #448aff 3px solid;
+    height: 120px;
+    padding-top: 30px;
+}
+
+#brandname {
+    float: left;
+    font-size: 30px;
+    color: #fff;
+    margin: 10px;
+}
+
+header h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.ml-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-info {
+    background-color: #448aff;
+    color: #fff;
+    height: 40px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-info:hover {
+    background: #0b7dda;
+}
+
+.ml-container p {
+    margin-bottom: 10px;
+}
+
+.resultss {
+    border-radius: 15px 50px;
+    background: #345fe4;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+/* Adjustments for dark theme */
+input[type="submit"].btn-info {
+    background-color: #448aff;
+    color: #fff;
+}
+
+.main-header {
+    background-color: #111;
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+}
+
+/* Additional adjustments for dark theme */
+p {
+    color: #ccc;
+}
+
+a {
+    color: #448aff;
+}
+
+a:hover {
+    color: #0b7dda;
+}
+
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			Air Quality Index Prediction
+		</div>
+		<h2>Air Quality Index Prediction</h2>
+		
+	</div>
+	</header>
+	<p style="color:blue;font-size:20;text-align: center;"><b>Results for Comment</b></p>
+	<div class="results">
+
+	<h2 style="color:blue;">Air Quality Index Output</h2>
+	 <table>
+         <tbody>
+         <th>Air Quailty Index</th>
+         {# here we iterate over every item in our list#}
+         {% for item in prediction %}
+             <tr><td>{{ item }}</td></tr>
+         {% endfor %}
+         </tbody>
+     </table>
+	
+	</div>
+
+</body>
+</html>
